@@ -13,7 +13,7 @@ Environment="CONDUWUIT_CONFIG=__INSTALL_DIR__/conduwuit.toml"
 WorkingDirectory=__INSTALL_DIR__/
 ExecStart=__INSTALL_DIR__/conduwuit
 
-ReadWritePaths=__INSTALL_DIR__/conduwuit
+ReadWritePaths=__INSTALL_DIR__/
 
 AmbientCapabilities=
 CapabilityBoundingSet=
