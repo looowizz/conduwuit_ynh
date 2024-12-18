@@ -60,10 +60,10 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    extract = false
+    extract = true
     rename = "conduwuit"
-    url = "https://github.com/girlbossceo/conduwuit/releases/download/v0.4.6/static-x86_64-unknown-linux-musl"
-    sha256 = "c084f045abef697de39e61ac475f95fa4ee9d27a2a0f448d41222d711ae0e22c"
+    url = "https://github.com/girlbossceo/conduwuit/actions/runs/12366335097/artifacts/2330021200"
+    sha256 = "a2a6e40e125002c8f5716a4f3988030bead4ec0503777c44d30ce646dc7de7a6"
 
     # autoupdate.strategy = "latest_github_tag"
 
