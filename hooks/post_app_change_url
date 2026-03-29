@@ -1,0 +1,22 @@
+#!/bin/bash
+#YNH_HELPERS_VERSION=2.1
+source /usr/share/yunohost/helpers
+
+ynh_print_warn "Please note that your tuwunel configuration may now be out-of-date. You can update this via a force upgrade (sudo yunohost app upgrade tuwunel --force)"
+sleep 5s
+#app="tuwunel"
+#install_dir=$(ynh_app_setting_get --app="$app" --key=install_dir)
+#php_version=$(ynh_app_setting_get --app="$app" --key=php_version)
+#
+#yunohost service stop __APP__
+#cd __INSTALL_DIR__
+#
+#turn_password=$(ynh_app_setting_get --app="coturn" --key=turnserver_pwd)
+#turn_external_port=$(ynh_app_setting_get --app="coturn" --key=port_turnserver_tls)
+#turn_domain=$(ynh_app_setting_get --app="coturn" --key="domain")
+#
+#_ynh_app_config_apply
+#chmod 400 "$install_dir/tuwunel.toml"
+#chown $app:root "$install_dir/tuwunel.toml"
+#
+#yunohost service start __APP__
